@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Homenaje-Regular.ttf">
+            <string>Homenaje-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someone Said..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14a-kb-t0Y">
+                                <rect key="frame" x="40" y="74" width="147.5" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="14a-kb-t0Y" secondAttribute="height" multiplier="143:32" id="M4h-tS-gT7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.44226691130000001" green="0.6138452888" blue="0.57414013149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writing Now?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0Z-Wf-TlH">
+                                <rect key="frame" x="40" y="278.5" width="138" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J0Z-Wf-TlH" secondAttribute="height" multiplier="46:11" id="kEu-zp-Uqo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.61276882889999995" green="0.57045859099999996" blue="0.74059355260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEU-l3-bJG">
+                                <rect key="frame" x="41.5" y="321.5" width="331" height="137"/>
+                                <color key="backgroundColor" red="0.61276882889999995" green="0.57045859099999996" blue="0.74059355260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oEU-l3-bJG" secondAttribute="height" multiplier="80:33" id="UNn-XY-2PI"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="3XC-2K-XoJ" appends="YES" id="qZc-fm-zIO"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IN0-OR-Koj">
+                                <rect key="frame" x="41.5" y="117" width="331" height="136.5"/>
+                                <color key="backgroundColor" red="0.44226691130000001" green="0.6138452888" blue="0.57414013149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IN0-OR-Koj" secondAttribute="height" multiplier="80:33" id="MkP-FL-kdv"/>
+                                </constraints>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to write..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcZ-AO-mkO">
+                                <rect key="frame" x="61.5" y="334.5" width="90.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="QcZ-AO-mkO" secondAttribute="height" multiplier="77:19" id="2ta-lN-PFm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Monthly Mood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23v-Hn-Gc9">
+                                <rect key="frame" x="41" y="506" width="140" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="23v-Hn-Gc9" secondAttribute="height" multiplier="140:33" id="41X-8J-QUu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.85082137579999995" green="0.65105676649999999" blue="0.44992810490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghx-qS-LmT">
+                                <rect key="frame" x="144" y="606" width="126" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="暫定日期"/>
+                                <connections>
+                                    <action selector="checkAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BQK-9c-6st"/>
+                                    <segue destination="UYT-fa-O0R" kind="show" identifier="goToCheckVC" id="Yhc-hf-bKR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.92393761870000002" green="0.83283388609999998" blue="0.57310938840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="IN0-OR-Koj" firstAttribute="top" secondItem="14a-kb-t0Y" secondAttribute="bottom" constant="10" id="0Kh-JI-UqV"/>
+                            <constraint firstItem="QcZ-AO-mkO" firstAttribute="leading" secondItem="oEU-l3-bJG" secondAttribute="leading" constant="20" id="3ej-0i-lH6"/>
+                            <constraint firstItem="oEU-l3-bJG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="437-Bo-ksM"/>
+                            <constraint firstItem="J0Z-Wf-TlH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="6Vp-8A-bfc"/>
+                            <constraint firstItem="ghx-qS-LmT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.304348" id="AKh-Pu-kH3"/>
+                            <constraint firstItem="IN0-OR-Koj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="EIN-xN-EA7"/>
+                            <constraint firstItem="14a-kb-t0Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GFs-Zw-CE6"/>
+                            <constraint firstItem="ghx-qS-LmT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NXD-3C-tmu"/>
+                            <constraint firstItem="23v-Hn-Gc9" firstAttribute="top" secondItem="oEU-l3-bJG" secondAttribute="bottom" constant="46.5" id="R46-us-wyf"/>
+                            <constraint firstItem="23v-Hn-Gc9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="S2z-9X-The"/>
+                            <constraint firstItem="IN0-OR-Koj" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SFU-bA-QpS"/>
+                            <constraint firstItem="oEU-l3-bJG" firstAttribute="top" secondItem="QcZ-AO-mkO" secondAttribute="bottom" constant="-35" id="Swc-GN-zrh"/>
+                            <constraint firstItem="ghx-qS-LmT" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0546875" id="VAj-Qa-N2g"/>
+                            <constraint firstItem="oEU-l3-bJG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="iMk-aG-eWp"/>
+                            <constraint firstItem="J0Z-Wf-TlH" firstAttribute="top" secondItem="IN0-OR-Koj" secondAttribute="bottom" constant="25" id="qLh-o1-ZtR"/>
+                            <constraint firstItem="oEU-l3-bJG" firstAttribute="top" secondItem="J0Z-Wf-TlH" secondAttribute="bottom" constant="10" id="qae-WK-sCQ"/>
+                            <constraint firstItem="ghx-qS-LmT" firstAttribute="top" secondItem="23v-Hn-Gc9" secondAttribute="bottom" constant="68" id="taE-1S-iAq"/>
+                            <constraint firstItem="14a-kb-t0Y" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.2" id="yAj-T6-JFO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateBtn" destination="ghx-qS-LmT" id="7UX-dn-g1B"/>
+                        <outlet property="mottoLabel" destination="14a-kb-t0Y" id="7MD-Sm-NgZ"/>
+                        <outlet property="mottoUIView" destination="IN0-OR-Koj" id="cX3-as-NVF"/>
+                        <outlet property="writingLabel" destination="J0Z-Wf-TlH" id="fsG-lU-daF"/>
+                        <outlet property="writingUIView" destination="oEU-l3-bJG" id="yt8-7J-iS6"/>
+                        <segue destination="kwS-8u-wbx" kind="show" identifier="goToWritingVC" id="lZf-yF-7TG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="3XC-2K-XoJ">
+                    <connections>
+                        <action selector="tapAction:" destination="BYZ-38-t0r" id="6mk-7r-r6O"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-214.49275362318843" y="75.669642857142847"/>
+        </scene>
+        <!--Writing View Controller-->
+        <scene sceneID="XPJ-lk-sji">
+            <objects>
+                <viewController id="kwS-8u-wbx" customClass="WritingViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PRG-rV-laU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How are you....?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmJ-ye-Tef">
+                                <rect key="frame" x="43" y="83" width="151" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TmJ-ye-Tef" secondAttribute="height" multiplier="151:33" id="Bt7-0b-Hsy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.85082137579999995" green="0.65105676649999999" blue="0.44992810490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fCe-GH-gHz">
+                                <rect key="frame" x="41.5" y="68" width="331" height="136.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fCe-GH-gHz" secondAttribute="height" multiplier="80:33" id="x6m-B9-k4M"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fmM-Og-mew">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="5" minY="7" maxX="5" maxY="7"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="JLf-Qh-JD2" customClass="EmojisCollectionViewCell" customModule="finalProject" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="7" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="vyY-Yj-7Kz">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ixN-x3-F8R">
+                                                    <rect key="frame" x="5" y="5" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="ixN-x3-F8R" secondAttribute="height" multiplier="1:1" id="Kro-Yx-Yzq"/>
+                                                        <constraint firstAttribute="width" constant="40" id="bjS-Eg-WXt"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ixN-x3-F8R" firstAttribute="centerX" secondItem="vyY-Yj-7Kz" secondAttribute="centerX" id="2V9-om-kKt"/>
+                                                <constraint firstItem="ixN-x3-F8R" firstAttribute="centerY" secondItem="vyY-Yj-7Kz" secondAttribute="centerY" id="g5o-2Z-McT"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="emojiImage" destination="ixN-x3-F8R" id="v7i-Fl-fui"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Diary TODAY..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qws-qv-pQ3">
+                                <rect key="frame" x="43" y="297" width="135" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="O7J-Xa-hZY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TsK-sO-zBn" customClass="PaddingUITextView" customModule="finalProject" customModuleProvider="target">
+                                <rect key="frame" x="40" y="267.5" width="331" height="168.5"/>
+                                <color key="backgroundColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Picture TODAY..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWt-F5-VSk">
+                                <rect key="frame" x="42" y="499" width="152" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uWt-F5-VSk" secondAttribute="height" multiplier="152:33" id="BHZ-i5-kNe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" red="0.66768068079999998" green="0.75814336540000005" blue="0.50865072010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6z-2r-Djx">
+                                <rect key="frame" x="41.5" y="499" width="331" height="203"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HNu-hn-iUk">
+                                        <rect key="frame" x="16.5" y="13" width="298" height="177"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66768068079999998" green="0.75814336540000005" blue="0.50865072010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="HNu-hn-iUk" firstAttribute="width" secondItem="N6z-2r-Djx" secondAttribute="width" multiplier="0.9" id="7Du-yA-8UX"/>
+                                    <constraint firstAttribute="width" secondItem="N6z-2r-Djx" secondAttribute="height" multiplier="331:203" id="NdJ-Qf-RqR"/>
+                                    <constraint firstItem="HNu-hn-iUk" firstAttribute="height" secondItem="N6z-2r-Djx" secondAttribute="height" multiplier="0.87" id="om8-Kg-aI7"/>
+                                    <constraint firstItem="HNu-hn-iUk" firstAttribute="centerY" secondItem="N6z-2r-Djx" secondAttribute="centerY" id="zC4-4g-lN7"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gRt-9l-5R3" appends="YES" id="2zP-CL-aMY"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee7-gN-lyk">
+                                <rect key="frame" x="176.5" y="751" width="61" height="37"/>
+                                <color key="backgroundColor" red="0.56230866909999999" green="0.67518693210000003" blue="0.74700611829999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ee7-gN-lyk" secondAttribute="height" multiplier="61:37" id="gNh-2q-s0y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                <state key="normal" title="DONE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="finishEdited:" destination="kwS-8u-wbx" eventType="touchUpInside" id="m7P-51-RwB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M3i-jN-LBt"/>
+                        <color key="backgroundColor" red="0.61276882889999995" green="0.57045859099999996" blue="0.74059355260000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="M3i-jN-LBt" firstAttribute="bottom" secondItem="ee7-gN-lyk" secondAttribute="bottom" constant="20" id="A5E-2j-Tfo"/>
+                            <constraint firstItem="HNu-hn-iUk" firstAttribute="centerX" secondItem="M3i-jN-LBt" secondAttribute="centerX" id="AC6-NY-4NC"/>
+                            <constraint firstItem="Qws-qv-pQ3" firstAttribute="top" secondItem="fCe-GH-gHz" secondAttribute="bottom" constant="20" id="EOl-1z-pzp"/>
+                            <constraint firstItem="TsK-sO-zBn" firstAttribute="top" secondItem="Qws-qv-pQ3" secondAttribute="bottom" constant="10" id="HvM-wg-dyL"/>
+                            <constraint firstItem="TmJ-ye-Tef" firstAttribute="leading" secondItem="M3i-jN-LBt" secondAttribute="leading" constant="40" id="XlY-8C-psL"/>
+                            <constraint firstItem="TsK-sO-zBn" firstAttribute="leading" secondItem="M3i-jN-LBt" secondAttribute="leading" constant="40" id="YE2-Dk-hnJ"/>
+                            <constraint firstItem="Qws-qv-pQ3" firstAttribute="leading" secondItem="M3i-jN-LBt" secondAttribute="leading" constant="40" id="bY2-Rl-8hK"/>
+                            <constraint firstItem="TsK-sO-zBn" firstAttribute="height" secondItem="PRG-rV-laU" secondAttribute="height" multiplier="0.2" id="blf-JP-zwI"/>
+                            <constraint firstItem="ee7-gN-lyk" firstAttribute="centerX" secondItem="M3i-jN-LBt" secondAttribute="centerX" id="e54-nC-wXL"/>
+                            <constraint firstItem="N6z-2r-Djx" firstAttribute="width" secondItem="PRG-rV-laU" secondAttribute="width" multiplier="0.8" id="f6C-GX-R4f"/>
+                            <constraint firstItem="uWt-F5-VSk" firstAttribute="leading" secondItem="M3i-jN-LBt" secondAttribute="leading" constant="40" id="fq4-H8-Pzy"/>
+                            <constraint firstItem="fCe-GH-gHz" firstAttribute="top" secondItem="TmJ-ye-Tef" secondAttribute="bottom" constant="10" id="ggu-0p-ywF"/>
+                            <constraint firstItem="N6z-2r-Djx" firstAttribute="centerX" secondItem="M3i-jN-LBt" secondAttribute="centerX" id="qnK-P2-WkB"/>
+                            <constraint firstItem="fCe-GH-gHz" firstAttribute="centerX" secondItem="M3i-jN-LBt" secondAttribute="centerX" id="qpw-SM-tRb"/>
+                            <constraint firstItem="TmJ-ye-Tef" firstAttribute="top" secondItem="M3i-jN-LBt" secondAttribute="top" constant="25" id="smM-t6-1Op"/>
+                            <constraint firstItem="uWt-F5-VSk" firstAttribute="top" secondItem="TsK-sO-zBn" secondAttribute="bottom" constant="20" id="tnk-x2-mJG"/>
+                            <constraint firstItem="N6z-2r-Djx" firstAttribute="top" secondItem="uWt-F5-VSk" secondAttribute="bottom" constant="10" id="uKh-0N-rpr"/>
+                            <constraint firstItem="TsK-sO-zBn" firstAttribute="width" secondItem="PRG-rV-laU" secondAttribute="width" multiplier="0.8" id="vgQ-zF-CDO"/>
+                            <constraint firstItem="fCe-GH-gHz" firstAttribute="width" secondItem="PRG-rV-laU" secondAttribute="width" multiplier="0.8" id="x9W-e8-75X"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LYu-nU-BKq"/>
+                    <connections>
+                        <outlet property="EmojiCollectionView" destination="fCe-GH-gHz" id="Ayt-xq-SzQ"/>
+                        <outlet property="contentIng" destination="HNu-hn-iUk" id="i9x-Fc-RIM"/>
+                        <outlet property="finishEditBtn" destination="ee7-gN-lyk" id="Rxj-He-G8P"/>
+                        <outlet property="pickedImg" destination="HNu-hn-iUk" id="hxm-fP-Tfz"/>
+                        <outlet property="selectImgView" destination="N6z-2r-Djx" id="DsH-Fu-IUU"/>
+                        <outlet property="textFieldContent" destination="TsK-sO-zBn" id="plU-br-6YR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xc3-nQ-L6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gRt-9l-5R3">
+                    <connections>
+                        <action selector="selectImg:" destination="kwS-8u-wbx" id="Opg-x6-aEQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="544.92753623188412" y="60.9375"/>
+        </scene>
+        <!--Check View Controller-->
+        <scene sceneID="Jft-nF-tel">
+            <objects>
+                <viewController id="UYT-fa-O0R" customClass="CheckViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9tQ-xa-feM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That day was..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BI-9m-Wa3">
+                                <rect key="frame" x="40" y="25" width="138" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4BI-9m-Wa3" secondAttribute="height" multiplier="46:11" id="xDc-th-ZoI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loudly Crying Face Emoji (1)" translatesAutoresizingMaskIntoConstraints="NO" id="AKT-gF-lcR">
+                                <rect key="frame" x="157" y="68" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AKT-gF-lcR" secondAttribute="height" multiplier="1:1" id="kaR-30-oBf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Diary was..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0v-1F-HWa">
+                                <rect key="frame" x="40" y="188" width="146" height="33"/>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e9W-38-c9a" customClass="PaddingUITextView" customModule="finalProject" customModuleProvider="target">
+                                <rect key="frame" x="41.5" y="231" width="331" height="210.5"/>
+                                <color key="backgroundColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="23"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Picture That day..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGM-TV-RR2">
+                                <rect key="frame" x="40" y="461.5" width="170" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VGM-TV-RR2" secondAttribute="height" multiplier="170:33" id="5dZ-uE-NNg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAF-Aa-SId">
+                                <rect key="frame" x="41.5" y="504.5" width="331" height="221"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="wK4-u9-7ZO">
+                                        <rect key="frame" x="33" y="22.5" width="265" height="176"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="wK4-u9-7ZO" secondAttribute="height" multiplier="265:176" id="rZb-XQ-nOs"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66768068079999998" green="0.75814336540000005" blue="0.50865072010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="wK4-u9-7ZO" firstAttribute="width" secondItem="pAF-Aa-SId" secondAttribute="width" multiplier="0.800604" id="OuU-0Z-5hk"/>
+                                    <constraint firstItem="wK4-u9-7ZO" firstAttribute="centerY" secondItem="pAF-Aa-SId" secondAttribute="centerY" id="i2X-V3-5gK"/>
+                                    <constraint firstItem="wK4-u9-7ZO" firstAttribute="centerX" secondItem="pAF-Aa-SId" secondAttribute="centerX" id="oh2-RJ-qvs"/>
+                                    <constraint firstAttribute="width" secondItem="pAF-Aa-SId" secondAttribute="height" multiplier="3:2" id="xss-6f-HkB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GfR-dP-avL"/>
+                        <color key="backgroundColor" red="0.51337134839999998" green="0.69032198190000005" blue="0.86758857970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4BI-9m-Wa3" firstAttribute="top" secondItem="GfR-dP-avL" secondAttribute="top" constant="25" id="4cN-hI-6kH"/>
+                            <constraint firstItem="4BI-9m-Wa3" firstAttribute="leading" secondItem="GfR-dP-avL" secondAttribute="leading" constant="40" id="5dK-ez-X8g"/>
+                            <constraint firstItem="pAF-Aa-SId" firstAttribute="width" secondItem="9tQ-xa-feM" secondAttribute="width" multiplier="0.8" id="9YR-OS-JM5"/>
+                            <constraint firstItem="AKT-gF-lcR" firstAttribute="centerX" secondItem="GfR-dP-avL" secondAttribute="centerX" id="ALn-Dj-6vQ"/>
+                            <constraint firstItem="e9W-38-c9a" firstAttribute="width" secondItem="9tQ-xa-feM" secondAttribute="width" multiplier="0.8" id="IaI-nC-QMn"/>
+                            <constraint firstItem="a0v-1F-HWa" firstAttribute="top" secondItem="AKT-gF-lcR" secondAttribute="bottom" constant="20" id="N7r-eq-qRf"/>
+                            <constraint firstItem="VGM-TV-RR2" firstAttribute="top" secondItem="e9W-38-c9a" secondAttribute="bottom" constant="20" id="Rad-rl-Zbp"/>
+                            <constraint firstItem="a0v-1F-HWa" firstAttribute="leading" secondItem="4BI-9m-Wa3" secondAttribute="leading" id="VJO-jU-Bha"/>
+                            <constraint firstItem="AKT-gF-lcR" firstAttribute="width" secondItem="9tQ-xa-feM" secondAttribute="width" multiplier="0.241546" id="Zmk-eR-fUG"/>
+                            <constraint firstItem="VGM-TV-RR2" firstAttribute="leading" secondItem="a0v-1F-HWa" secondAttribute="leading" id="eYs-9x-jrO"/>
+                            <constraint firstItem="e9W-38-c9a" firstAttribute="centerX" secondItem="GfR-dP-avL" secondAttribute="centerX" id="nvD-JK-jGh"/>
+                            <constraint firstItem="AKT-gF-lcR" firstAttribute="top" secondItem="4BI-9m-Wa3" secondAttribute="bottom" constant="10" id="rYN-ac-h1W"/>
+                            <constraint firstItem="pAF-Aa-SId" firstAttribute="centerX" secondItem="GfR-dP-avL" secondAttribute="centerX" id="tMm-ta-tfn"/>
+                            <constraint firstItem="pAF-Aa-SId" firstAttribute="top" secondItem="VGM-TV-RR2" secondAttribute="bottom" constant="10" id="tnJ-Dv-eB7"/>
+                            <constraint firstItem="e9W-38-c9a" firstAttribute="height" secondItem="9tQ-xa-feM" secondAttribute="height" multiplier="0.25" id="wIO-D0-qIY"/>
+                            <constraint firstItem="e9W-38-c9a" firstAttribute="top" secondItem="a0v-1F-HWa" secondAttribute="bottom" constant="10" id="ydg-zc-nOq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Aqp-B1-rdb"/>
+                    <connections>
+                        <outlet property="checkTextView" destination="e9W-38-c9a" id="BjI-VT-2eS"/>
+                        <outlet property="picView" destination="pAF-Aa-SId" id="lHA-dt-MSx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zCo-6U-ZQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214.49275362318843" y="804.91071428571422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Loudly Crying Face Emoji (1)" width="640" height="640"/>
+        <image name="cat" width="2731" height="2725"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
