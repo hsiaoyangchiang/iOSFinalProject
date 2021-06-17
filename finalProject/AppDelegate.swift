@@ -6,11 +6,16 @@
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    override init() {
+       super.init()
+       FirebaseApp.configure()
+       // not really needed unless you really need it FIRDatabase.database().persistenceEnabled = true
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
