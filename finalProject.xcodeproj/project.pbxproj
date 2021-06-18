@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2902ECF1267B9613006A42BE /* Homenaje-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0D526730415000B8F3D /* Homenaje-Regular.ttf */; };
+		2902ECF3267B9677006A42BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0C626730365000B8F3D /* Main.storyboard */; };
+		2902ECF6267BA5C8006A42BE /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902ECF5267BA5C8006A42BE /* FinishedViewController.swift */; };
 		297D08152673CC4F003D228E /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D08142673CC4F003D228E /* CheckViewController.swift */; };
 		2988462A2674B76A00C94C42 /* PaddingUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298846292674B76A00C94C42 /* PaddingUITextView.swift */; };
 		29CAE0C126730365000B8F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0C026730365000B8F3D /* AppDelegate.swift */; };
 		29CAE0C326730365000B8F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0C226730365000B8F3D /* SceneDelegate.swift */; };
 		29CAE0C526730365000B8F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0C426730365000B8F3D /* ViewController.swift */; };
-		29CAE0C826730365000B8F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0C626730365000B8F3D /* Main.storyboard */; };
 		29CAE0CA26730369000B8F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0C926730369000B8F3D /* Assets.xcassets */; };
 		29CAE0CD26730369000B8F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0CB26730369000B8F3D /* LaunchScreen.storyboard */; };
-		29CAE0DA2673155E000B8F3D /* Homenaje-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29CAE0D526730415000B8F3D /* Homenaje-Regular.ttf */; };
 		29CAE0DD26732262000B8F3D /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0DC26732262000B8F3D /* WritingViewController.swift */; };
 		29CAE0E426732C32000B8F3D /* emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0E326732C32000B8F3D /* emojis.swift */; };
 		29CAE0EB26732F64000B8F3D /* EmojisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CAE0EA26732F64000B8F3D /* EmojisCollectionViewCell.swift */; };
+		A1853FE8267B6542003DFE01 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1853FE7267B6542003DFE01 /* CalendarCollectionViewCell.swift */; };
+		A1853FEB267B6900003DFE01 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1853FEA267B6900003DFE01 /* CalendarHelper.swift */; };
 		A2787080267B2EDB00C2FADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A278707F267B2EDB00C2FADB /* GoogleService-Info.plist */; };
 		F7315296E7397B0F262E642E /* Pods_finalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB0863F37037DE830F259D5 /* Pods_finalProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2902ECF5267BA5C8006A42BE /* FinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
 		297D08142673CC4F003D228E /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 		298846292674B76A00C94C42 /* PaddingUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUITextView.swift; sourceTree = "<group>"; };
 		29CAE0BD26730365000B8F3D /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +43,8 @@
 		29CAE0E326732C32000B8F3D /* emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojis.swift; sourceTree = "<group>"; };
 		29CAE0EA26732F64000B8F3D /* EmojisCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisCollectionViewCell.swift; sourceTree = "<group>"; };
 		79EC4D98D348529213F56897 /* Pods-finalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProject.release.xcconfig"; path = "Target Support Files/Pods-finalProject/Pods-finalProject.release.xcconfig"; sourceTree = "<group>"; };
+		A1853FE7267B6542003DFE01 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1853FEA267B6900003DFE01 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		A278707F267B2EDB00C2FADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AAB0863F37037DE830F259D5 /* Pods_finalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6186C94CD781CA63CD3F30 /* Pods-finalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalProject.debug.xcconfig"; path = "Target Support Files/Pods-finalProject/Pods-finalProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				29CAE0DC26732262000B8F3D /* WritingViewController.swift */,
 				29CAE0C426730365000B8F3D /* ViewController.swift */,
 				29CAE0C626730365000B8F3D /* Main.storyboard */,
+				2902ECF5267BA5C8006A42BE /* FinishedViewController.swift */,
+				A1853FEA267B6900003DFE01 /* CalendarHelper.swift */,
+				A1853FE7267B6542003DFE01 /* CalendarCollectionViewCell.swift */,
 				297D08142673CC4F003D228E /* CheckViewController.swift */,
 				298846292674B76A00C94C42 /* PaddingUITextView.swift */,
 				29CAE0EA26732F64000B8F3D /* EmojisCollectionViewCell.swift */,
@@ -171,11 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2902ECF3267B9677006A42BE /* Main.storyboard in Resources */,
+				2902ECF1267B9613006A42BE /* Homenaje-Regular.ttf in Resources */,
 				29CAE0CD26730369000B8F3D /* LaunchScreen.storyboard in Resources */,
 				29CAE0CA26730369000B8F3D /* Assets.xcassets in Resources */,
 				A2787080267B2EDB00C2FADB /* GoogleService-Info.plist in Resources */,
-				29CAE0DA2673155E000B8F3D /* Homenaje-Regular.ttf in Resources */,
-				29CAE0C826730365000B8F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,8 +242,11 @@
 				29CAE0C126730365000B8F3D /* AppDelegate.swift in Sources */,
 				29CAE0E426732C32000B8F3D /* emojis.swift in Sources */,
 				29CAE0C326730365000B8F3D /* SceneDelegate.swift in Sources */,
+				A1853FEB267B6900003DFE01 /* CalendarHelper.swift in Sources */,
 				29CAE0EB26732F64000B8F3D /* EmojisCollectionViewCell.swift in Sources */,
+				A1853FE8267B6542003DFE01 /* CalendarCollectionViewCell.swift in Sources */,
 				297D08152673CC4F003D228E /* CheckViewController.swift in Sources */,
+				2902ECF6267BA5C8006A42BE /* FinishedViewController.swift in Sources */,
 				2988462A2674B76A00C94C42 /* PaddingUITextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
