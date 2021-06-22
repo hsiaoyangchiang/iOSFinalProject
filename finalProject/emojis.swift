@@ -30,6 +30,5 @@ let emojis: [Emojis] = [
     Emojis(name: "Grinmacing Face Emoji", image: #imageLiteral(resourceName: "Grinmacing Face Emoji")),
     Emojis(name: "Fearful Face Emoji", image: #imageLiteral(resourceName: "Fearful Face Emoji")),
     Emojis(name: "Sad Face Emoji", image: #imageLiteral(resourceName: "Sad Face Emoji")),
-    
 ]
 
