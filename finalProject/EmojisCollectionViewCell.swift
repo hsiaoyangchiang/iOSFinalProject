@@ -13,5 +13,5 @@ class EmojisCollectionViewCell: UICollectionViewCell {
     
     func setup(with emojis: Emojis) {
          emojiImage.image = emojis.image
-        }
+    }
 }

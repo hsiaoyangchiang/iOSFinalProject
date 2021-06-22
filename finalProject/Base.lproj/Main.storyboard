@@ -22,6 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< Updated upstream
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someone Said..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="14a-kb-t0Y">
                                 <rect key="frame" x="40" y="64.5" width="147.5" height="33"/>
                                 <constraints>
@@ -33,6 +34,208 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writing Now?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0Z-Wf-TlH">
                                 <rect key="frame" x="40" y="269" width="138" height="33"/>
+=======
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IfC-Za-nZw">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCj-Vh-x3B">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="878.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someone Said..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrI-fb-0aJ">
+                                                <rect key="frame" x="40" y="25" width="147" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="UrI-fb-0aJ" secondAttribute="height" multiplier="49:11" id="07j-jr-OAD"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <color key="textColor" red="0.66768068079999998" green="0.75814336540000005" blue="0.50865072010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pXT-95-qnK" customClass="PaddingUITextView" customModule="finalProject" customModuleProvider="target">
+                                                <rect key="frame" x="41.5" y="68" width="331" height="132"/>
+                                                <color key="backgroundColor" red="0.66768068079999998" green="0.75814336540000005" blue="0.50865072010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Writing Now?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65j-CL-tfd">
+                                                <rect key="frame" x="40" y="220" width="138" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="65j-CL-tfd" secondAttribute="height" multiplier="46:11" id="sAP-4D-2ul"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <color key="textColor" red="0.48799687619999998" green="0.47459781169999998" blue="0.56166785959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly Mood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-jd-RQG">
+                                                <rect key="frame" x="40" y="512.5" width="140" height="33"/>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <color key="textColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h5u-ih-3TN">
+                                                <rect key="frame" x="41.5" y="555.5" width="331" height="24.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRN-Jn-aMl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIJ-vk-KHe">
+                                                        <rect key="frame" x="48.5" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffh-Iy-4ME">
+                                                        <rect key="frame" x="97" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAE-oY-fBE">
+                                                        <rect key="frame" x="145.5" y="0.0" width="40" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQ3-WK-gr0">
+                                                        <rect key="frame" x="193.5" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcF-ax-5Wa">
+                                                        <rect key="frame" x="242" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFb-3S-2pj">
+                                                        <rect key="frame" x="290.5" y="0.0" width="40.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VBp-cl-n3m">
+                                                <rect key="frame" x="40" y="586" width="331" height="239"/>
+                                                <color key="backgroundColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cd6-d0-Rk9">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="calCell" id="5H6-om-lzw" customClass="CalendarCollectionViewCell" customModule="finalProject" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W74-VN-skX">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w83-f6-7Lt">
+                                                                    <rect key="frame" x="61" y="53" width="6" height="22"/>
+                                                                    <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="20"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="w83-f6-7Lt" firstAttribute="centerX" secondItem="W74-VN-skX" secondAttribute="centerX" id="GgY-Sw-yWR"/>
+                                                                <constraint firstItem="w83-f6-7Lt" firstAttribute="centerY" secondItem="W74-VN-skX" secondAttribute="centerY" id="ZcY-gd-M68"/>
+                                                            </constraints>
+                                                        </collectionViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="dayOfMonth" destination="w83-f6-7Lt" id="dgH-gh-qrX"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="f3U-a3-bU9"/>
+                                                    <outlet property="delegate" destination="BYZ-38-t0r" id="J5H-am-qtB"/>
+                                                </connections>
+                                            </collectionView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9V-tl-5TN">
+                                                <rect key="frame" x="235" y="517" width="63" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="o9V-tl-5TN" secondAttribute="height" multiplier="21:10" id="Chf-c0-Gff"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                <state key="normal" title="previous">
+                                                    <color key="titleColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="previousMonth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VeH-YY-FMR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCA-NS-l27">
+                                                <rect key="frame" x="321" y="517" width="46" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="UCA-NS-l27" secondAttribute="height" multiplier="23:15" id="6ff-mz-Bt4"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                <state key="normal" title="next">
+                                                    <color key="titleColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nextMonth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TIg-CA-Ygc"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ojG-VH-tVK">
+                                                <rect key="frame" x="36" y="285" width="331" height="219.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to write..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOp-gh-KIF">
+                                                        <rect key="frame" x="20" y="20" width="100" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.48799687619999998" green="0.47459781169999998" blue="0.56166785959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="vOp-gh-KIF" firstAttribute="leading" secondItem="ojG-VH-tVK" secondAttribute="leading" constant="20" id="482-v3-99g"/>
+                                                    <constraint firstItem="vOp-gh-KIF" firstAttribute="top" secondItem="ojG-VH-tVK" secondAttribute="top" constant="20" id="keD-jr-4ek"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="3XC-2K-XoJ" appends="YES" id="7hv-Lj-KqU"/>
+                                                </connections>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="VBp-cl-n3m" firstAttribute="width" secondItem="mCj-Vh-x3B" secondAttribute="width" multiplier="0.8" id="1dx-Ag-PGW"/>
+                                            <constraint firstItem="pXT-95-qnK" firstAttribute="top" secondItem="UrI-fb-0aJ" secondAttribute="bottom" constant="10" id="4md-2B-wba"/>
+                                            <constraint firstAttribute="bottom" secondItem="VBp-cl-n3m" secondAttribute="bottom" constant="25" id="6pP-uh-pMu"/>
+                                            <constraint firstItem="ojG-VH-tVK" firstAttribute="width" secondItem="mCj-Vh-x3B" secondAttribute="width" multiplier="0.8" id="6tf-2T-hdX"/>
+                                            <constraint firstItem="o9V-tl-5TN" firstAttribute="centerY" secondItem="TAb-jd-RQG" secondAttribute="centerY" id="7WK-C3-ZMx"/>
+                                            <constraint firstItem="h5u-ih-3TN" firstAttribute="leading" secondItem="VBp-cl-n3m" secondAttribute="leading" id="9Tg-bB-DyY"/>
+                                            <constraint firstItem="UrI-fb-0aJ" firstAttribute="leading" secondItem="mCj-Vh-x3B" secondAttribute="leading" constant="40" id="ASf-Eq-gw1"/>
+                                            <constraint firstItem="TAb-jd-RQG" firstAttribute="leading" secondItem="mCj-Vh-x3B" secondAttribute="leading" constant="40" id="CmN-0R-zbY"/>
+                                            <constraint firstItem="UCA-NS-l27" firstAttribute="leading" secondItem="o9V-tl-5TN" secondAttribute="trailing" constant="10" id="HE1-Z3-o8n"/>
+                                            <constraint firstItem="65j-CL-tfd" firstAttribute="leading" secondItem="mCj-Vh-x3B" secondAttribute="leading" constant="40" id="LaH-Aa-FTm"/>
+                                            <constraint firstItem="UCA-NS-l27" firstAttribute="trailing" secondItem="h5u-ih-3TN" secondAttribute="trailing" id="NjN-Un-5Qu"/>
+                                            <constraint firstItem="pXT-95-qnK" firstAttribute="width" secondItem="mCj-Vh-x3B" secondAttribute="width" multiplier="0.8" id="P3B-P8-h3w"/>
+                                            <constraint firstItem="65j-CL-tfd" firstAttribute="top" secondItem="pXT-95-qnK" secondAttribute="bottom" constant="20" id="Sic-Ao-xu6"/>
+                                            <constraint firstItem="VBp-cl-n3m" firstAttribute="top" secondItem="h5u-ih-3TN" secondAttribute="bottom" constant="10" id="UMZ-5Z-C1m"/>
+                                            <constraint firstItem="ojG-VH-tVK" firstAttribute="top" secondItem="65j-CL-tfd" secondAttribute="bottom" constant="20" id="UeU-Tk-3NJ"/>
+                                            <constraint firstItem="UrI-fb-0aJ" firstAttribute="top" secondItem="mCj-Vh-x3B" secondAttribute="top" constant="25" id="VAL-I2-dbi"/>
+                                            <constraint firstItem="pXT-95-qnK" firstAttribute="height" secondItem="mCj-Vh-x3B" secondAttribute="height" multiplier="0.15" id="XlW-Iu-s9C"/>
+                                            <constraint firstItem="VBp-cl-n3m" firstAttribute="height" secondItem="mCj-Vh-x3B" secondAttribute="height" multiplier="0.3" id="bdY-nM-GmX"/>
+                                            <constraint firstItem="pXT-95-qnK" firstAttribute="centerX" secondItem="mCj-Vh-x3B" secondAttribute="centerX" id="eIS-Zf-hMg"/>
+                                            <constraint firstItem="ojG-VH-tVK" firstAttribute="height" secondItem="mCj-Vh-x3B" secondAttribute="height" multiplier="0.25" id="eyU-qP-09J"/>
+                                            <constraint firstItem="h5u-ih-3TN" firstAttribute="top" secondItem="TAb-jd-RQG" secondAttribute="bottom" constant="10" id="fcH-eQ-Dsv"/>
+                                            <constraint firstItem="TAb-jd-RQG" firstAttribute="top" secondItem="ojG-VH-tVK" secondAttribute="bottom" constant="20" id="jiK-iC-gCz"/>
+                                            <constraint firstItem="ojG-VH-tVK" firstAttribute="centerX" secondItem="mCj-Vh-x3B" secondAttribute="centerX" id="kus-cg-uki"/>
+                                            <constraint firstItem="VBp-cl-n3m" firstAttribute="centerX" secondItem="mCj-Vh-x3B" secondAttribute="centerX" id="lDs-4A-9Uv"/>
+                                            <constraint firstItem="UCA-NS-l27" firstAttribute="centerY" secondItem="TAb-jd-RQG" secondAttribute="centerY" id="qlx-q8-j7W"/>
+                                            <constraint firstItem="h5u-ih-3TN" firstAttribute="trailing" secondItem="VBp-cl-n3m" secondAttribute="trailing" id="rjD-aY-f9j"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+>>>>>>> Stashed changes
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="J0Z-Wf-TlH" secondAttribute="height" multiplier="46:11" id="kEu-zp-Uqo"/>
                                 </constraints>
@@ -111,12 +314,27 @@
                     </view>
                     <navigationItem key="navigationItem" id="C8g-PG-GHg"/>
                     <connections>
+<<<<<<< Updated upstream
                         <outlet property="dateBtn" destination="ghx-qS-LmT" id="7UX-dn-g1B"/>
                         <outlet property="mottoLabel" destination="14a-kb-t0Y" id="7MD-Sm-NgZ"/>
                         <outlet property="mottoUIView" destination="IN0-OR-Koj" id="cX3-as-NVF"/>
                         <outlet property="writingLabel" destination="J0Z-Wf-TlH" id="fsG-lU-daF"/>
                         <outlet property="writingUIView" destination="oEU-l3-bJG" id="yt8-7J-iS6"/>
                         <segue destination="kwS-8u-wbx" kind="show" identifier="goToWritingVC" id="lZf-yF-7TG"/>
+=======
+                        <outlet property="collectionView" destination="VBp-cl-n3m" id="cui-S3-h9A"/>
+                        <outlet property="monthLabel" destination="TAb-jd-RQG" id="xWv-Jq-MAR"/>
+                        <outlet property="mottoLabel" destination="UrI-fb-0aJ" id="8yb-yR-MmI"/>
+                        <outlet property="mottoTextField" destination="pXT-95-qnK" id="uyh-Ge-lAX"/>
+                        <outlet property="nextbtn" destination="UCA-NS-l27" id="oQk-wv-adP"/>
+                        <outlet property="placeholder" destination="vOp-gh-KIF" id="blx-Vo-ZiS"/>
+                        <outlet property="previous" destination="o9V-tl-5TN" id="5nc-gY-ICV"/>
+                        <outlet property="viewBackground" destination="8bC-Xf-vdC" id="dF8-bg-dOr"/>
+                        <outlet property="writingLabel" destination="65j-CL-tfd" id="gfr-An-JOZ"/>
+                        <outlet property="writingUIView" destination="ojG-VH-tVK" id="cUt-TY-vpC"/>
+                        <segue destination="DJL-hh-e1C" kind="show" identifier="goToWritingVC" id="0N6-be-4tc"/>
+                        <segue destination="UYT-fa-O0R" kind="show" identifier="viewRecord" id="f6J-Xf-cfr"/>
+>>>>>>> Stashed changes
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -288,6 +506,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LYu-nU-BKq"/>
                     <connections>
+<<<<<<< Updated upstream
                         <outlet property="EmojiCollectionView" destination="fCe-GH-gHz" id="Ayt-xq-SzQ"/>
                         <outlet property="contentIng" destination="HNu-hn-iUk" id="i9x-Fc-RIM"/>
                         <outlet property="finishEditBtn" destination="ee7-gN-lyk" id="Rxj-He-G8P"/>
@@ -299,6 +518,249 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xc3-nQ-L6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="gRt-9l-5R3">
+=======
+                        <outlet property="EmojiCollectionView" destination="fCe-GH-gHz" id="Qj0-Rj-oaC"/>
+                        <outlet property="contentImg" destination="vtC-FD-2NT" id="mmt-NV-U4B"/>
+                        <outlet property="finishEditBtn" destination="MoD-ax-Y83" id="s1B-Cj-9r8"/>
+                        <outlet property="selectImgView" destination="ZQh-rd-IDG" id="BaZ-4M-dYl"/>
+                        <outlet property="textFieldContent" destination="3WG-yH-qit" id="w9M-1N-Y5m"/>
+                        <outlet property="uploadPicBtn" destination="QNB-Va-sXl" id="Gv2-tk-YIY"/>
+                        <segue destination="sPT-fD-lrt" kind="presentation" identifier="goToFinishVC" id="g10-JF-MIm"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="finishWriting" modalPresentationStyle="fullScreen" id="64Z-qn-eKU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cni-sV-OWN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618.84057971014499" y="60.9375"/>
+        </scene>
+        <!--Finished View Controller-->
+        <scene sceneID="hOi-4x-CHs">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="sPT-fD-lrt" customClass="FinishedViewController" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rk1-An-Ajs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pp5-g9-8UR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MhI-Pu-UNx">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someone Said..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j2K-dU-hsg">
+                                                <rect key="frame" x="40" y="25" width="147" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="j2K-dU-hsg" secondAttribute="height" multiplier="49:11" id="zrP-hQ-Tz3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6rk-Yw-uoA" customClass="PaddingUITextView" customModule="finalProject" customModuleProvider="target">
+                                                <rect key="frame" x="42" y="80" width="331" height="128"/>
+                                                <color key="backgroundColor" red="0.4433115125" green="0.61745363470000003" blue="0.57436233759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Want To Change...?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCQ-7q-0eC">
+                                                <rect key="frame" x="44" y="287" width="186" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="tCQ-7q-0eC" secondAttribute="height" multiplier="46:11" id="6Jy-rd-fj5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6X-IS-P0i">
+                                                <rect key="frame" x="42" y="343" width="331" height="152"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click to rewrite..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXk-TM-O7X">
+                                                        <rect key="frame" x="20" y="20" width="113.5" height="24.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="QXk-TM-O7X" secondAttribute="height" multiplier="88:19" id="Akr-ng-l71"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.48799687619999998" green="0.47459781169999998" blue="0.56166785959999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstItem="QXk-TM-O7X" firstAttribute="top" secondItem="s6X-IS-P0i" secondAttribute="top" constant="20" id="4ga-f8-3j4"/>
+                                                    <constraint firstItem="QXk-TM-O7X" firstAttribute="leading" secondItem="s6X-IS-P0i" secondAttribute="leading" constant="20" id="ko5-6W-v8f"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="48J-l0-AF4" appends="YES" id="1LP-B1-jbk"/>
+                                                </connections>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gk-FB-1Vf">
+                                                <rect key="frame" x="252" y="564" width="64" height="30"/>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                <state key="normal" title="previous">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="previousMonth:" destination="sPT-fD-lrt" eventType="touchUpInside" id="oXI-VY-g9q"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6s-5I-KaT">
+                                                <rect key="frame" x="327" y="564" width="46" height="30"/>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                <state key="normal" title="next">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nextMonth:" destination="sPT-fD-lrt" eventType="touchUpInside" id="JIh-aQ-EkL"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-cb-GPR">
+                                                <rect key="frame" x="40" y="446.5" width="332.5" height="24.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x93-0p-guo">
+                                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdQ-N6-M2L">
+                                                        <rect key="frame" x="47.5" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Q3-82-YZ2">
+                                                        <rect key="frame" x="95" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHc-dq-oHX">
+                                                        <rect key="frame" x="142.5" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgi-y9-xgu">
+                                                        <rect key="frame" x="190" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84c-5X-l40">
+                                                        <rect key="frame" x="237.5" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqt-Fb-EVM">
+                                                        <rect key="frame" x="285" y="0.0" width="47.5" height="24.5"/>
+                                                        <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="22"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PK8-cr-usw">
+                                                <rect key="frame" x="40" y="655" width="331" height="200"/>
+                                                <color key="backgroundColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ppd-KM-JGa">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="calCell" id="daR-PJ-9yB" customClass="CalendarCollectionViewCell" customModule="finalProject" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pxm-Wf-CSZ">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQc-zQ-rUU">
+                                                                    <rect key="frame" x="61" y="53" width="6" height="22"/>
+                                                                    <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="20"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="tQc-zQ-rUU" firstAttribute="centerY" secondItem="pxm-Wf-CSZ" secondAttribute="centerY" id="7pr-4Q-OZA"/>
+                                                                <constraint firstItem="tQc-zQ-rUU" firstAttribute="centerX" secondItem="pxm-Wf-CSZ" secondAttribute="centerX" id="WW4-8K-vrH"/>
+                                                            </constraints>
+                                                        </collectionViewCellContentView>
+                                                        <connections>
+                                                            <outlet property="dayOfMonth" destination="tQc-zQ-rUU" id="mdQ-YB-sCw"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="sPT-fD-lrt" id="YyZ-nR-p13"/>
+                                                    <outlet property="delegate" destination="sPT-fD-lrt" id="e2s-iJ-jTp"/>
+                                                </connections>
+                                            </collectionView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Month Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eqp-hB-Kjq">
+                                                <rect key="frame" x="44" y="563" width="119" height="33"/>
+                                                <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.54065173860000004" green="0.69653820990000004" blue="0.84993916749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Eqp-hB-Kjq" firstAttribute="leading" secondItem="MhI-Pu-UNx" secondAttribute="leading" constant="40" id="0cY-ti-tKf"/>
+                                            <constraint firstItem="j2K-dU-hsg" firstAttribute="top" secondItem="MhI-Pu-UNx" secondAttribute="top" constant="25" id="1ro-IW-ETY"/>
+                                            <constraint firstItem="PK8-cr-usw" firstAttribute="height" secondItem="MhI-Pu-UNx" secondAttribute="height" multiplier="0.3" id="3ib-6L-Xhn"/>
+                                            <constraint firstAttribute="bottom" secondItem="PK8-cr-usw" secondAttribute="bottom" constant="25" id="4b5-my-afF"/>
+                                            <constraint firstItem="j2K-dU-hsg" firstAttribute="leading" secondItem="MhI-Pu-UNx" secondAttribute="leading" constant="40" id="9bW-MS-lFO"/>
+                                            <constraint firstItem="6rk-Yw-uoA" firstAttribute="height" secondItem="MhI-Pu-UNx" secondAttribute="height" multiplier="0.15" id="Do0-dU-X4S"/>
+                                            <constraint firstItem="s6X-IS-P0i" firstAttribute="top" secondItem="tCQ-7q-0eC" secondAttribute="bottom" constant="20" id="Ezu-3G-P5d"/>
+                                            <constraint firstItem="g6s-5I-KaT" firstAttribute="leading" secondItem="6gk-FB-1Vf" secondAttribute="trailing" constant="10" id="FFl-k7-kJv"/>
+                                            <constraint firstItem="6gk-FB-1Vf" firstAttribute="centerY" secondItem="Eqp-hB-Kjq" secondAttribute="centerY" id="IAf-5D-wnO"/>
+                                            <constraint firstItem="g6s-5I-KaT" firstAttribute="trailing" secondItem="s6X-IS-P0i" secondAttribute="trailing" id="Ieh-wZ-Nma"/>
+                                            <constraint firstItem="6rk-Yw-uoA" firstAttribute="width" secondItem="MhI-Pu-UNx" secondAttribute="width" multiplier="0.8" id="M4f-9z-d6c"/>
+                                            <constraint firstItem="tCQ-7q-0eC" firstAttribute="top" secondItem="6rk-Yw-uoA" secondAttribute="bottom" constant="20" id="PTN-nD-Yh3"/>
+                                            <constraint firstItem="Kdc-cb-GPR" firstAttribute="trailing" secondItem="g6s-5I-KaT" secondAttribute="trailing" id="Upq-Cw-5SV"/>
+                                            <constraint firstItem="PK8-cr-usw" firstAttribute="width" secondItem="MhI-Pu-UNx" secondAttribute="width" multiplier="0.8" id="VGS-Zc-Hw9"/>
+                                            <constraint firstItem="Kdc-cb-GPR" firstAttribute="top" secondItem="Eqp-hB-Kjq" secondAttribute="bottom" constant="20" id="a5l-rg-GVM"/>
+                                            <constraint firstItem="s6X-IS-P0i" firstAttribute="width" secondItem="MhI-Pu-UNx" secondAttribute="width" multiplier="0.8" id="b0c-SS-ECf"/>
+                                            <constraint firstItem="6rk-Yw-uoA" firstAttribute="top" secondItem="j2K-dU-hsg" secondAttribute="bottom" constant="10" id="cgJ-zd-HNE"/>
+                                            <constraint firstItem="Kdc-cb-GPR" firstAttribute="leading" secondItem="Eqp-hB-Kjq" secondAttribute="leading" id="dAX-K3-Tdf"/>
+                                            <constraint firstItem="PK8-cr-usw" firstAttribute="top" secondItem="Kdc-cb-GPR" secondAttribute="bottom" constant="20" id="doN-cP-csB"/>
+                                            <constraint firstItem="g6s-5I-KaT" firstAttribute="centerY" secondItem="Eqp-hB-Kjq" secondAttribute="centerY" id="gyj-Bs-Wra"/>
+                                            <constraint firstItem="s6X-IS-P0i" firstAttribute="height" secondItem="MhI-Pu-UNx" secondAttribute="height" multiplier="0.15" id="kTe-dQ-lfy"/>
+                                            <constraint firstItem="6rk-Yw-uoA" firstAttribute="centerX" secondItem="MhI-Pu-UNx" secondAttribute="centerX" id="m4i-g8-yjO"/>
+                                            <constraint firstItem="tCQ-7q-0eC" firstAttribute="leading" secondItem="MhI-Pu-UNx" secondAttribute="leading" constant="40" id="shm-wD-Bqi"/>
+                                            <constraint firstItem="PK8-cr-usw" firstAttribute="centerX" secondItem="MhI-Pu-UNx" secondAttribute="centerX" id="t9z-MX-1C9"/>
+                                            <constraint firstItem="s6X-IS-P0i" firstAttribute="centerX" secondItem="MhI-Pu-UNx" secondAttribute="centerX" id="wS3-sU-tlE"/>
+                                            <constraint firstItem="Eqp-hB-Kjq" firstAttribute="top" secondItem="s6X-IS-P0i" secondAttribute="bottom" constant="20" id="zuO-iu-mgx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="MhI-Pu-UNx" firstAttribute="leading" secondItem="mzI-fg-CsF" secondAttribute="leading" id="JiK-SW-IdV"/>
+                                    <constraint firstItem="MhI-Pu-UNx" firstAttribute="trailing" secondItem="mzI-fg-CsF" secondAttribute="trailing" id="OWN-hb-RcE"/>
+                                    <constraint firstItem="MhI-Pu-UNx" firstAttribute="width" secondItem="luO-BM-0y4" secondAttribute="width" id="ciw-wM-LXz"/>
+                                    <constraint firstItem="MhI-Pu-UNx" firstAttribute="bottom" secondItem="mzI-fg-CsF" secondAttribute="bottom" id="qOA-KN-tGb"/>
+                                    <constraint firstItem="MhI-Pu-UNx" firstAttribute="top" secondItem="mzI-fg-CsF" secondAttribute="top" id="wN2-CR-oM5"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="mzI-fg-CsF"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="luO-BM-0y4"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p4T-tr-nb0"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="pp5-g9-8UR" firstAttribute="leading" secondItem="p4T-tr-nb0" secondAttribute="leading" id="65S-4W-Mu5"/>
+                            <constraint firstItem="pp5-g9-8UR" firstAttribute="top" secondItem="p4T-tr-nb0" secondAttribute="top" id="flU-Yh-cgX"/>
+                            <constraint firstItem="pp5-g9-8UR" firstAttribute="bottom" secondItem="p4T-tr-nb0" secondAttribute="bottom" id="jtP-2h-yRK"/>
+                            <constraint firstItem="pp5-g9-8UR" firstAttribute="trailing" secondItem="p4T-tr-nb0" secondAttribute="trailing" id="yZe-Bb-ajW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fnT-5E-LhI"/>
+>>>>>>> Stashed changes
                     <connections>
                         <action selector="selectImg:" destination="kwS-8u-wbx" id="Opg-x6-aEQ"/>
                     </connections>
@@ -323,14 +785,22 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< Updated upstream
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Loudly Crying Face Emoji (1)" translatesAutoresizingMaskIntoConstraints="NO" id="AKT-gF-lcR">
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyMood" translatesAutoresizingMaskIntoConstraints="NO" id="AKT-gF-lcR">
+>>>>>>> Stashed changes
                                 <rect key="frame" x="157" y="68" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AKT-gF-lcR" secondAttribute="height" multiplier="1:1" id="kaR-30-oBf"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Diary was..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0v-1F-HWa">
+<<<<<<< Updated upstream
                                 <rect key="frame" x="40" y="188" width="146" height="33"/>
+=======
+                                <rect key="frame" x="40" y="188" width="145.5" height="33"/>
+>>>>>>> Stashed changes
                                 <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -338,7 +808,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e9W-38-c9a" customClass="PaddingUITextView" customModule="finalProject" customModuleProvider="target">
                                 <rect key="frame" x="41.5" y="231" width="331" height="210.5"/>
                                 <color key="backgroundColor" red="0.82989531760000002" green="0.59934043879999999" blue="0.65260732170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Homenaje-Regular" family="Homenaje" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -355,7 +824,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAF-Aa-SId">
                                 <rect key="frame" x="41.5" y="504.5" width="331" height="221"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="wK4-u9-7ZO">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage" translatesAutoresizingMaskIntoConstraints="NO" id="wK4-u9-7ZO">
                                         <rect key="frame" x="33" y="22.5" width="265" height="176"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wK4-u9-7ZO" secondAttribute="height" multiplier="265:176" id="rZb-XQ-nOs"/>
@@ -372,7 +841,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GfR-dP-avL"/>
-                        <color key="backgroundColor" red="0.51337134839999998" green="0.69032198190000005" blue="0.86758857970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.54117647058823526" green="0.69803921568627447" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="4BI-9m-Wa3" firstAttribute="top" secondItem="GfR-dP-avL" secondAttribute="top" constant="25" id="4cN-hI-6kH"/>
                             <constraint firstItem="4BI-9m-Wa3" firstAttribute="leading" secondItem="GfR-dP-avL" secondAttribute="leading" constant="40" id="5dK-ez-X8g"/>
@@ -395,17 +864,22 @@
                     <navigationItem key="navigationItem" id="Aqp-B1-rdb"/>
                     <connections>
                         <outlet property="checkTextView" destination="e9W-38-c9a" id="BjI-VT-2eS"/>
-                        <outlet property="picView" destination="pAF-Aa-SId" id="lHA-dt-MSx"/>
+                        <outlet property="moodImageView" destination="AKT-gF-lcR" id="Ysa-nL-L8z"/>
+                        <outlet property="picView" destination="wK4-u9-7ZO" id="Z1r-aH-sZ3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCo-6U-ZQP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< Updated upstream
             <point key="canvasLocation" x="-214.49275362318843" y="804.91071428571422"/>
+=======
+            <point key="canvasLocation" x="-214" y="801"/>
+>>>>>>> Stashed changes
         </scene>
     </scenes>
     <resources>
-        <image name="Loudly Crying Face Emoji (1)" width="640" height="640"/>
-        <image name="cat" width="2731" height="2725"/>
+        <image name="emptyMood" width="232" height="232"/>
+        <image name="noImage" width="494" height="494"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

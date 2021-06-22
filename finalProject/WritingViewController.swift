@@ -117,13 +117,22 @@ class WritingViewController: UIViewController,UICollectionViewDelegate,UICollect
         //upload image to db
         //get download url
         //save download url to user default
-        storage.child("images/file.png").putData(imageData, metadata: nil, completion: { _, error in
+        
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let date = dateFormatter.string(from: today)
+        
+        storage.child("images/file\(date).png").putData(imageData, metadata: nil, completion: { _, error in
             guard error == nil else {
                 print("failed to upload")
                 return
             }
+<<<<<<< Updated upstream
             
             self.storage.child("images/file.png").downloadURL(completion: { url, error in
+=======
+
+            self.storage.child("images/file\(date).png").downloadURL(completion: { url, error in
+>>>>>>> Stashed changes
                 guard let url = url, error == nil else {
                     return
                 }
@@ -167,7 +176,11 @@ class WritingViewController: UIViewController,UICollectionViewDelegate,UICollect
         
         //Upload data to Firebase
         db.collection("user").document(date).setData(["date":date,"content":content!,"mood":mood,"imageurl":url])
+<<<<<<< Updated upstream
         self.performSegue(withIdentifier: "backToMain", sender: nil)
+=======
+        self.performSegue(withIdentifier: "finishWriting", sender: nil)
+>>>>>>> Stashed changes
     }
     
     
